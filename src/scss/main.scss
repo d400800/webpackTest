@@ -1,14 +1,12 @@
-// @font-face {
-//     font-family: 'Roboto';
-//     src:  url('./Roboto-Regular.ttf') format('truetype');
-//     font-weight: 400;
-//     font-style: normal;
-// }
+html {
+    font-size: 10px;
+}
 
-$colorGray: #333;
+$colorGray: blue;
 
 .hello {
     display: flex;
+    font-size: 1.80rem;
     color: $colorGray;
     font-family: 'Roboto';
 }
