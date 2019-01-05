@@ -1,0 +1,16 @@
+@import "custom";
+
+@import "~bootstrap/scss/bootstrap-grid";
+
+html {
+    font-size: 10px;
+}
+
+$colorGray: gray;
+
+.hello {
+    display: flex;
+    font-size: 1.8rem;
+    color: $colorGray;
+    font-family: 'Roboto';
+}
