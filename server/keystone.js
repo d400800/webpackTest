@@ -10,7 +10,7 @@ keystone.init({
   'views': 'templates/views',
   'custom engine': engine,
   'view engine': 'ejs',
-  'static' : 'dist'
+  'static' : 'static'
 });
 
 keystone.import('models');
